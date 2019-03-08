@@ -18,7 +18,7 @@ switch method
     case 'chessboard'
         % Prepare image:
         tic; converted = arrayfun(@convert, arg); toc
-        disp('Converted every 1 to 0 and every 0 to ?.')
+        disp('Converted every 1 to 0 and every 0 to inf.')
         
         % First pass:
         tic; transform_kernel_tl = d8_transform_tl(converted); toc
@@ -33,7 +33,7 @@ switch method
     case 'cityblock'
         % Prepare image:
         tic; converted = arrayfun(@convert, arg); toc
-        disp('Converted every 1 to 0 and every 0 to ?.')
+        disp('Converted every 1 to 0 and every 0 to inf.')
         
         % First pass:
         tic; transform_kernel_tl = d4_transform_tl(converted); toc
@@ -48,7 +48,7 @@ switch method
     case 'euclidean'
         % Prepare image:
         tic; converted = arrayfun(@convert, arg); toc
-        disp('Converted every 1 to 0 and every 0 to ?.')
+        disp('Converted every 1 to 0 and every 0 to inf.')
         
         % First pass:
         tic; transform_kernel_tl = ec_transform_tl(converted); toc
@@ -65,7 +65,7 @@ end
 end
 
 function out = convert(arg)
-    % Convert every 1 (object of interest) to 0 and every 0 to ?
+    % Convert every 1 (object of interest) to 0 and every 0 to inf
 if arg==0
     out=inf;
 else

@@ -1,0 +1,2 @@
+### TODO
+Vectorize matrices operations.

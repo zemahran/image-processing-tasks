@@ -142,24 +142,3 @@ def auto_correct(img):
 
 corrected_image = auto_correct(img)
 cv2.imshow('Corrected Image', corrected_image); cv2.waitKey(5000)
-
-# measure noise
-# print(measure_noise(img, 5, 1200))
-# correct noise
-# cv2.imshow('Corrected Image', correct_noise(img, 3)); cv2.waitKey(5000)
-# correct noise, then re-measure
-# print('old image:', measure_noise(img, 5, 1200), '\nnew image:', measure_noise(correct_noise(img, 3), 5, 1200))
-
-# measure blurriness
-# print(measure_blurriness(img, 3, 250))
-# correct blurriness
-# cv2.imshow('Corrected Image', correct_blurriness(img, 3, 0.5)); cv2.waitKey(5000)
-# correct blurriness, then re-measure
-# print('old image:', measure_blurriness(img, 3, 250), '\nnew image:', measure_blurriness(correct_blurriness(img, 3, 0.7), 3, 250))
-
-# measure color collapsing
-# print(measure_color_collapsing(img))
-# correct color correct_color_collapsing
-# cv2.imshow('Corrected Image', correct_color_collapsing(img)); cv2.waitKey(5000)
-# correct color collapsing, then re-measure
-# print('old image:', measure_color_collapsing(img), '\nnew image:', measure_color_collapsing(correct_color_collapsing(img)))

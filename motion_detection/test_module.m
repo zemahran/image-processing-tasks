@@ -1,9 +1,6 @@
-% please uncomment the imshow lines to be able to distinguish every module's results
-
-
 % 1.1 Frame Difference Test
 
-% Change the path of the two images below
+% Load images
 img1 = imread('frame1.jpg');
 img2 = imread('frame2.jpg');
 % showing the difference frame

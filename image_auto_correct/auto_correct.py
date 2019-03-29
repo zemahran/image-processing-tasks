@@ -3,8 +3,6 @@ import numpy as np
 import statistics
 from matplotlib import pyplot as plt
 
-""" PLEASE CHANGE THE IMAGE PATH """
-
 img = cv2.imread('imagesA2/4.jpg')
 img = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 

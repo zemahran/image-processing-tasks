@@ -1,0 +1,12 @@
+focal length = 4.3 mm
+principal point = [320, 240]
+FH=2.7446 mm
+FW=3.5311 mm
+
+
+left (x, y, z, omega, phi, kappa) ==> mm and degrees
+-1535.21 1720.84 1693.22 -35.16 -46.77 -155.57
+
+
+right (x, y, z, omega, phi, kappa)
+-1694.56 -142.25 1585.19 25.03 -55.56 -47.08

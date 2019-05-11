@@ -44,7 +44,6 @@ end
 % 
 
 function out = filter(img, kernel_size)
-% faster convolution can be done using convn()
 
 inc = floor(kernel_size/2);
 
